@@ -1,5 +1,5 @@
-# math
+# Math
 
-O math foi desenvolvido por mim apenas com input e prompt para treinar lógica de programação.
+O Math foi desenvolvido para treinar lógica de programação e matemática.
 
-São 6 opções ...
+https://devgigifa.github.io/math/
