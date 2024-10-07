@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #272727; */
+    background: linear-gradient(90deg, rgba(0,0,0,1)0%, rgba(16,25,71,1) 100%);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #22d4fd;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #1a1a3a; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto */
+    border: 2px solid #5d71d7;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 200px #5d71d7, 0 0 4px #5d71d7; /* Sombra inicial suave */
+}
+
+
+
+button:hover {
+    background-color: #1e1e49; /* Efeito ao passar o mouse */
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.7), 
+                0 0 7px rgba(0, 255, 255, 0.5), 
+                0 0 9px rgba(0, 255, 255, 0.3); /* Efeito de neon */
+}
+
+.input-area, .result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #050116;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.input-area input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #000000;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+.input-area input:focus {
+    outline: none;
+    box-shadow: 0 0 20px rgba(76, 175, 80, 1);
+}
+
+.result {
+    color: #a8b3a8;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
