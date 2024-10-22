@@ -2,6 +2,4 @@
 
 O Math foi desenvolvido para treinar lógica de programação e matemática.
 
-https://devgigifa.github.io/math/
-
-https://cursos.alura.com.br/forum/topico-projeto-minha-personalizacao-301683
+link do site: https://devgigifa.github.io/math/
