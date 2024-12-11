@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Interativa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/6747/6747072.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Interativa</h1>
+        <div class="options">
+            <button onclick="mostrar('comparar')">Comparar dois números</button>
+            <button onclick="mostrar('media')">Calcular média</button>
+            <button onclick="mostrar('parImpar')">Exibir números pares ou ímpares</button>
+            <button onclick="mostrar('tabuada')">Exibir tabuada</button>
+            <button onclick="mostrar('calculadora')">Realizar operação matemática</button>
+            <button onclick="mostrar('primo')">Verificar número primo</button>
+        </div>
+        <div id="input-area" class="input-area"></div>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
